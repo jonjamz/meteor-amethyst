@@ -3,7 +3,6 @@ Package.describe({
 });
 
 Package.on_use(function (api, where) {
-  api.export && api.export('A', ['client', 'server']);
   api.add_files('./amethyst/amethyst.js', ['client', 'server']);
 });
 
