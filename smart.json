@@ -1,7 +1,7 @@
 {
   "name": "meteor-amethyst",
   "description": "Ultra-lightweight, convention-over-configuration module containers for Meteor.",
-  "homepage": "",
+  "homepage": "http://amethyst.io",
   "author": "Jon James (https://github.com/jonjamz)",
   "version": "0.1.0",
   "git": "https://github.com/jonjamz/meteor-amethyst.git",

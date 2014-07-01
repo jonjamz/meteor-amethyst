@@ -1,0 +1,3 @@
+[submodule "amethyst"]
+	path = amethyst
+	url = https://github.com/jonjamz/amethyst.git

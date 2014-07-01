@@ -3,10 +3,10 @@ Package.describe({
 });
 
 Package.on_use(function (api, where) {
-  api.add_files('meteor-amethyst.js', ['client', 'server']);
+  api.add_files('./amethyst/amethyst.js', ['client', 'server']);
 });
 
 Package.on_test(function (api) {
   api.use('meteor-amethyst');
-  api.add_files('meteor-amethyst_tests.js', ['client', 'server']);
+  api.add_files('./tests/tests.js', ['client', 'server']);
 });
