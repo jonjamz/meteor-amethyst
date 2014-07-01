@@ -8,6 +8,6 @@ Package.on_use(function (api, where) {
 });
 
 Package.on_test(function (api) {
-  api.use('meteor-amethyst');
+  api.use('amethyst');
   api.add_files('./tests/tests.js', ['client', 'server']);
 });
